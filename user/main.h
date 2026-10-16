@@ -1,0 +1,25 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+#include "stm32f10x.h"
+#include "string.h"
+#include "delay.h"
+#include "led.h"
+#include "beep.h"
+#include "key.h"
+#include "exti.h"
+#include "usart1.h"
+#include "kqm6600.h"
+#include "dht11.h"
+#include "su03.h"
+#include "rgb.h"
+#include "adc.h"
+#include "timer.h"
+#include "rtc.h"
+#include "lcd_driver.h"
+#include "stm32_eval_spi_flash.h"
+#include "bh1750.h"
+#include "wifi.h"
+#include "cjson.h"
+#include "mqtt.h"
+#endif
